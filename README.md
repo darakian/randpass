@@ -1,2 +1,2 @@
-# hashpass
+# randpass
 Strong password generator
