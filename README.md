@@ -1,0 +1,2 @@
+# hashpass
+Strong password generator
