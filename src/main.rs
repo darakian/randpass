@@ -1,5 +1,5 @@
 use randpass;
 
 fn main() {
-    println!("Hello, world! {}", hashpass::test());
+    println!("Hello, world! {}", randpass::test());
 }
