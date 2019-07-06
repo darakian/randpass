@@ -20,7 +20,7 @@ impl<T> Alphabet<T>{
 pub fn test() -> String {
     let mut byte = [0u8; 1];
     rand::thread_rng().fill_bytes(&mut byte);
-    let chars = "abcdefghijklmnopqrstuvwxyz".chars().collect();
+    let chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ".chars().collect();
     rand_n_elems(10, Alphabet::new(chars))
 }
 
