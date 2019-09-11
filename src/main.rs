@@ -1,5 +1,7 @@
 use randpass;
 
 fn main() {
-    println!("Hello, world! {}", randpass::test());
+    for i in 0..10{
+        println!("{:?}", randpass::test());
+    }
 }
